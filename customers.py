@@ -185,7 +185,7 @@ wcss = []
 
 
 
-
+#hello
 for k in range(1,11):
     kmeans=KMeans(n_clusters=k, init = "k-means++")
     kmeans.fit(X1)
